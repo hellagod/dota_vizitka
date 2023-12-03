@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.176ea9e3.css",
-    "main.js": "/static/js/main.7c10b5f3.js",
+    "main.js": "/static/js/main.98c062f1.js",
     "static/media/Bahnschrift.ttf": "/static/media/Bahnschrift.b00e12e37c52124aa504.ttf",
     "static/media/stray.png": "/static/media/stray.6754d9fb91b1d5b834e6.png",
     "static/media/telegram.svg": "/static/media/telegram.d8af914778ee831324246ac939d4ac04.svg",
@@ -11,10 +11,10 @@
     "static/media/youtube.svg": "/static/media/youtube.8edd0ec6f6be4046d051fe9607435754.svg",
     "static/media/twitch.svg": "/static/media/twitch.3b60ffe9cb9a4b9e0907463355efaa0c.svg",
     "main.176ea9e3.css.map": "/static/css/main.176ea9e3.css.map",
-    "main.7c10b5f3.js.map": "/static/js/main.7c10b5f3.js.map"
+    "main.98c062f1.js.map": "/static/js/main.98c062f1.js.map"
   },
   "entrypoints": [
     "static/css/main.176ea9e3.css",
-    "static/js/main.7c10b5f3.js"
+    "static/js/main.98c062f1.js"
   ]
 }

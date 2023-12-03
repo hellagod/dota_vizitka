@@ -26,13 +26,13 @@ export default function Report() {
             <Logo/>
         </Row>
         <Row className="justify-content-between">
-            <Col xs lg="5" className="ps-0 mb-5">
+            <Col xs lg="5" className="ps-0 mb-5 ">
                 <div style={text} className="mb-3">{siteData.report.upText}</div>
-                    {siteData.report.contacts.map(({icon, href, name}) => <Row xs="auto" className="align-items-center">
-                        <a href={href} style={iconStyle} className="noStyle">
+                    {siteData.report.contacts.map(({icon, href, name}) => <Row xs="auto" className="justify-content-start align-items-center">
+                        <a href={href} className="p-0 ps-3 noStyle">
                             <Image style={iconStyle} src={icon}/>
                         </a>
-                        <a style={stats} href={href} className="ms-2 noStyle">{name}</a>
+                        <a style={stats} href={href} className="p-0 ms-2 noStyle">{name}</a>
                     </Row>)}
                 <div style={text} className="mt-3">
                     {siteData.report.btText}
