@@ -1,21 +1,22 @@
-import {Container, Row} from "react-bootstrap";
 import Title from "./components/Title";
 import About from "./components/About";
-import Teem from "./components/Teem";
-import Report from "./components/Report";
+import Report from "./components/report/Report";
 import React from "react";
+import VideoBackground from "./components/utils/VideoBackgraund";
+import Teem from "./components/teem/Teem";
+import './components/main.css'
 
 function App() {
     return (
-        <div className="gabs p-4 p-sm-4 p-md-5 p-lg-5">
-            <Container>
+        <div className="gabs">
+            <VideoBackground>
                 <Title/>
-                <Row className="p-0 p-sm-1 p-md-2 p-lg-3"/>
                 <About/>
                 <Teem/>
                 <Report/>
-            </Container>
+            </VideoBackground>
         </div>
+
     );
 }
 

@@ -1,92 +1,32 @@
 @font-face {
-    font-weight: 700; /* Соответствует значению bold */
-    font-family: Bahnschrift;
-    src: url("fonts/Bahnschrift.ttf");
+    font-family: "Bahnschrift SemiLight Condensed";
+    src: url("data/fonts/Bahnschrift.ttf") format("truetype");
+}
+@font-face {
+    font-weight: 700;
+    font-family: Segoe;
+    src: url("data/fonts/Segoe.ttf") format("truetype");
 }
 
 body {
     background-color: #09002A !important;
     color: aliceblue !important;
-    /*overflow-x: hidden;*/
+}
+
+.main {
+    padding: max(4%, 1.9em);
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: radial-gradient(#2942FF 70%, transparent 70%);
+    background-repeat: no-repeat no-repeat;
+    background-size: max(1vw, 0.5em) max(1vw, 0.5em);
+    background-position: right max(3vw, 1em) top max(2vw, 1em);
+    border-radius: max(4vw, 1em);
 }
 
 .gabs {
     width: 100%;
-    background-image: radial-gradient(#192093 0%, transparent 70%);
+    background-image: radial-gradient(#192093 0%, transparent 70%), radial-gradient(#192093 0%, transparent 70%);
     background-repeat: no-repeat no-repeat;
-    background-size: max(60vw, 27em) max(45vw, 22em);
-    background-position: 50% min(-22.5vw, -11em);
-
-}
-
-div {
-    margin: 0;
-    font-weight: 800;
-    font-family: 'Nunito', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 800 !important;
-    font-family: 'Nunito', sans-serif;
-}
-
-.main{
-    background-color: #534D6A;
-    background-image: radial-gradient(#2942FF 70%, #534D6A 70%);
-    background-repeat: no-repeat no-repeat;
-    background-size: max(1vw, 0.5em) max(1vw, 0.5em);
-    background-position: right max(2vw, 1em) top max(2vw, 1em);
-    border-radius: max(4vw, 1em);
-}
-
-input[type='text'],input[type='tel'],input[type='email'], textarea{
-    font-weight: 500!important;
-    font-size: max(2vw, 1.2em)!important;
-    color: #FFFFFF!important;
-    background: #878397!important;
-    border: 0!important;
-}
-
-input[type='submit']{
-    font-weight: 500;
-    font-size: max(2vw, 1.2em);
-    color: #FFFFFF;
-    background: transparent;
-    border: 0.2em solid transparent !important;
-}
-
-input[type='submit']:hover{
-    background: transparent;
-    color: #FFFFFF;
-    border: 0.2em solid #878397!important;
-    box-shadow: 0 0;
-}
-
-input[type='submit']:focus{
-    background: transparent;
-    color: #FFFFFF;
-    border: 0.2em solid #878397!important;
-    box-shadow: 0 0;
-}
-input[type='submit']:active{
-    background: #878397;
-    color: #FFFFFF;
-    border: 0.2em solid #878397!important;
-    box-shadow: 0 0;
-}
-
-
-::placeholder {
-    font-family: 'Nunito', sans-serif;
-    color: rgba(255, 255, 255, 0.73) !important;
-}
-
-a.noStyle:link {
-    text-decoration: inherit;
-    color: inherit;
-}
-
-a.noStyle:visited {
-    text-decoration: inherit;
-    color: inherit;
+    background-size: max(50vw, 30em) max(50vw, 30em), max(50vw, 30em) max(50vw, 30em);
+    background-position: right min(-40vw, -24em) top 50vmax, left min(-40vw, -24em) bottom 50vmax;
 }

@@ -1,0 +1,29 @@
+ .title{
+    font-size: max(2.7vw, 1.5em);
+    line-height: 1.2;
+}
+
+.stats {
+    width: auto;
+    font-family: "Bahnschrift SemiLight Condensed", sans-serif;
+    font-stretch: condensed;
+
+    font-size: max(2.1vw, 1.4em);
+}
+
+.img-size{
+    width: 100%;
+}
+
+.card-player{
+    width: max(33%, 17em)!important;
+    padding: 2vw 0 2vw 0!important;
+}
+
+.pad-teem{
+    padding: 3vw 0;
+ }
+
+.tab{
+    padding-left: clamp(0px, calc(calc(100vw - 700px) * 0.1), 20%)
+}
