@@ -10,7 +10,7 @@ export default function Card({participant}) {
         </Row>
         <div className="tab pt-3">
             <div className="name" >{participant.name}</div>
-            <Row xs="auto" className="justify-content-start pt-2">
+            <Row xs="auto" className="justify-content-around pt-2">
                 {participant.statistics.map(({icon, href, audience, id}) => (
                     <Col key={id}>
                         <Row xs="auto" className="align-items-center p-2">

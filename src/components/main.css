@@ -26,14 +26,14 @@
 .name{
     font-family: 'Calibri', sans-serif;
     font-weight: bold;
-    font-size: max(3.2vw, 1.8em);
+    font-size: max(3.2vw, 1.5em);
     color: #576BFF;
     line-height: 1;
 }
 
 .icon {
-    width: max(2.2vw, 2em);
-    height: max(2.2vw, 2em);
+    width: max(2.2vw, 1.7em);
+    height: max(2.2vw, 1.7em);
 }
 
 .smile{
