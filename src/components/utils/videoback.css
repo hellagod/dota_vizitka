@@ -5,14 +5,8 @@ video {
     color: #4bc7ff
 }
 
-.max-width{
-    max-width: 90em;
-    margin: 0 auto;
-}
-
-
-.pad{
-     padding: 10% 8%;
+.pad-global{
+     padding: 10% 0
  }
 
 .wrapper {

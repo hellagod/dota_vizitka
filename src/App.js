@@ -7,17 +7,12 @@ import Teem from "./components/teem/Teem";
 import './components/main.css'
 
 function App() {
-    return (
-        <div className="gabs">
-            <VideoBackground>
-                <Title/>
-                <About/>
-                <Teem/>
-                <Report/>
-            </VideoBackground>
-        </div>
-
-    );
+    return <VideoBackground>
+        <Title/>
+        <About/>
+        <Teem/>
+        <Report/>
+    </VideoBackground>
 }
 
 export default App;

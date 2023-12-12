@@ -28,5 +28,5 @@ body {
     background-image: radial-gradient(#192093 0%, transparent 70%), radial-gradient(#192093 0%, transparent 70%);
     background-repeat: no-repeat no-repeat;
     background-size: max(50vw, 30em) max(50vw, 30em), max(50vw, 30em) max(50vw, 30em);
-    background-position: right min(-40vw, -24em) top 50vmax, left min(-40vw, -24em) bottom 50vmax;
+    background-position: right min(-40vw, -24em) top , left min(-40vw, -24em) bottom ;
 }

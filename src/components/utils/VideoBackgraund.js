@@ -10,10 +10,8 @@ export default function VideoBackground({children}) {
                 <source src={data.back} type="video/mp4"/>
             </video>
         </div>
-        <div className="max-width">
-            <div className="pad">
+        <div className="pad-global">
                 {children.map(comp => comp)}
             </div>
-        </div>
     </div>
 }

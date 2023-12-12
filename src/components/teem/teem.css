@@ -3,10 +3,12 @@
     line-height: 1.2;
 }
 
-.stats {
+.stats-card {
     width: auto;
     font-family: "Bahnschrift SemiLight Condensed", sans-serif;
     font-stretch: condensed;
+    text-align: center;
+    padding-top: 5px;
     font-size: max(2.1vw, 1.2em);
 }
 
@@ -21,9 +23,26 @@
 
 .pad-teem{
     gap: 5px;
-    padding: 3vw 0;
+    padding: max(3vw, 2em) 0;
  }
 
 .tab{
     padding-left: clamp(0px, calc(calc(100vw - 700px) * 0.1), 20%)
 }
+
+ .icons{
+     display: flex;
+     justify-content: start;
+ }
+
+ .carousel-control-prev-icon{
+     width: 10em;
+     height: 10em;
+ }
+
+ @media screen and (max-width: 800px) {
+     .icons {
+         display: flex;
+         justify-content: space-around;
+     }
+ }

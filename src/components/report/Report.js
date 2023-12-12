@@ -15,7 +15,7 @@ export default function Report() {
                         <Row key={id} xs="auto"
                              className="justify-content-start align-items-center p-1 p-sm-1 p-md-1 p-lg-0 p-xl-0">
                             <a href={href} className="noStyle">
-                                <Image className="icon" src={icon}/>
+                                <Image className="icon-global" src={icon}/>
                             </a>
                             <a href={href} className="noStyle stats text p-0">{name}</a>
                         </Row>))}
