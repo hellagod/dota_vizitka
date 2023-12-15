@@ -30,3 +30,10 @@ body {
     background-size: max(50vw, 30em) max(50vw, 30em), max(50vw, 30em) max(50vw, 30em);
     background-position: right min(-40vw, -24em) top , left min(-40vw, -24em) bottom ;
 }
+
+@media screen and (max-width: 800px) {
+    .icons {
+        display: flex;
+        justify-content: space-around;
+    }
+}

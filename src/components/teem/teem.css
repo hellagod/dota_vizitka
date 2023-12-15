@@ -1,7 +1,4 @@
- .title{
-    font-size: max(2.7vw, 1.5em);
-    line-height: 1.2;
-}
+
 
 .stats-card {
     width: auto;
@@ -9,7 +6,7 @@
     font-stretch: condensed;
     text-align: center;
     padding-top: 5px;
-    font-size: max(2.1vw, 1.2em);
+    font-size: clamp(1.2em, 2.1vw, 2em);
 }
 
 .img-size{
@@ -35,14 +32,17 @@
      justify-content: start;
  }
 
- .carousel-control-prev-icon{
-     width: 10em;
-     height: 10em;
- }
-
  @media screen and (max-width: 800px) {
      .icons {
          display: flex;
          justify-content: space-around;
      }
  }
+
+.empty{
+    color: transparent!important;
+    cursor: default;
+    pointer-events: none;
+    user-focus: none;
+    user-select: none;
+}

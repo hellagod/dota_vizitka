@@ -26,7 +26,7 @@
 .name{
     font-family: 'Calibri', sans-serif;
     font-weight: bold;
-    font-size: max(3.2vw, 1.5em);
+    font-size: clamp(1.5em, 3.2vw, 3.2em);
     color: #576BFF;
     line-height: 1;
 }
