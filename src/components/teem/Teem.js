@@ -15,7 +15,7 @@ function sliceIntoChunks(arr, chunkSize) {
         res.push(chunk.map(p => <Card key={p.name} participant={p}/>));
     }
 
-    const last = chunkSize - (arr.length % chunkSize == 0? chunkSize : arr.length % chunkSize)
+    const last = chunkSize - (arr.length % chunkSize === 0? chunkSize : arr.length % chunkSize)
     for (let i = 0; i < last; i++) {
         res[res.length-1].push(<Card key={i} empty={"empty"} participant={{
             name: ".",
@@ -24,8 +24,21 @@ function sliceIntoChunks(arr, chunkSize) {
                 {
                     href: "",
                     icon: emptyIcon,
-                    audience: ".",
+                    audience: "666",
                     id: 0
+                },
+
+                {
+                    href: "",
+                    icon: emptyIcon,
+                    audience: "6666",
+                    id: 1
+                },
+                {
+                    href: "",
+                    icon: emptyIcon,
+                    audience: "666",
+                    id: 2
                 }
             ]
         }}/>)
