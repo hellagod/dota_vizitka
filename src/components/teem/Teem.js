@@ -1,4 +1,4 @@
-import {Row} from "react-bootstrap";
+import {Carousel, Row} from "react-bootstrap";
 import React, {useEffect, useState} from "react";
 import Card from "./Card";
 import data from "../../data/data";
@@ -15,9 +15,9 @@ function sliceIntoChunks(arr, chunkSize) {
         res.push(chunk.map(p => <Card key={p.name} participant={p}/>));
     }
 
-    const last = chunkSize - (arr.length % chunkSize === 0? chunkSize : arr.length % chunkSize)
+    const last = chunkSize - (arr.length % chunkSize === 0 ? chunkSize : arr.length % chunkSize)
     for (let i = 0; i < last; i++) {
-        res[res.length-1].push(<Card key={i} empty={"empty"} participant={{
+        res[res.length - 1].push(<Card key={i} empty={"empty"} participant={{
             name: ".",
             photo: emptyPhoto,
             statistics: [
@@ -64,14 +64,15 @@ export default function Teem() {
             setTeem(sliceIntoChunks(data.team.participants, 6))
     }, [isSmall]);
 
-    return <CCarousel controls indicators className="mb-5 gabs">
-        {teem.map((par, index) =>  <CCarouselItem key={index}>
+    return <Carousel>
+        {teem.map((par, index) => <Carousel.Item key={index}>
             <Container>
                 <Row className="justify-content-around pad-teem">
                     {par}
                 </Row>
             </Container>
-        </CCarouselItem>)}
-    </CCarousel>
+        </Carousel.Item>)}
+    </Carousel>
+
 
 }

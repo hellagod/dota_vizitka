@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.566e93c8.css",
-    "main.js": "/static/js/main.8bc11485.js",
+    "main.js": "/static/js/main.62343ce8.js",
     "static/media/video_back.mp4": "/static/media/video_back.25cdb90ddfdf47cd232d.mp4",
     "static/media/csgonews.png": "/static/media/csgonews.ce0ddba73de192a44206.png",
     "static/media/goodwin.png": "/static/media/goodwin.4fecde8e46f78615763d.png",
@@ -19,10 +19,10 @@
     "static/media/gabe.svg": "/static/media/gabe.d8cac223d8a4f9388e3e560b0ac9eaed.svg",
     "static/media/empty.svg": "/static/media/empty.cb1be020617a1a2709f7dcc802804564.svg",
     "main.566e93c8.css.map": "/static/css/main.566e93c8.css.map",
-    "main.8bc11485.js.map": "/static/js/main.8bc11485.js.map"
+    "main.62343ce8.js.map": "/static/js/main.62343ce8.js.map"
   },
   "entrypoints": [
     "static/css/main.566e93c8.css",
-    "static/js/main.8bc11485.js"
+    "static/js/main.62343ce8.js"
   ]
 }
