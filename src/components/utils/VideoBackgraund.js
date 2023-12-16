@@ -6,7 +6,7 @@ import data from "../../data/data";
 export default function VideoBackground({children}) {
     return <div className="justify-content-center">
         <div className="wrapper">
-            <video loop="loop" autoPlay={true} muted>
+            <video loop="loop" autoPlay={true} playsInline={true} muted>
                 <source src={data.back} type="video/mp4"/>
             </video>
         </div>
