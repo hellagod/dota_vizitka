@@ -6,13 +6,13 @@
 
 .logo-title {
     color: #000000;
-    font-size: max(3.8vw, 1.9em);
+    font-size: clamp(1.9em, 3.8vw, 2.4em);
     font-weight: 700;
     height: 100%;
     line-height: 1.2;
-    padding-left: 2%;
+    padding-left: 0.5%;
 }
 
 .logo-icon {
-    width: max(2em, 4vw);
+    width: max(2em, 3vw);
 }

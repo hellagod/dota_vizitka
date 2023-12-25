@@ -1,24 +1,25 @@
 .main-title{
     font-family: Segoe, serif;
     color: #576BFF;
-    font-size: max(10vw, 3.2em);
+    font-size: clamp(3.2em, 10vw, 10em);
     line-height: 0.8;
 }
 
 .sub-title{
     font-weight: 500;
     font-family: 'Calibri', sans-serif;
-    font-size: max(3.2vw, 1.5em);
+    font-size: clamp(1.5em, 3.2vw, 2.4em);
     line-height: 1;
     padding-top: max(1vw, 0.4em);
-    padding-bottom: 10vw;
+    padding-bottom: max(5vw, 2em);
 }
+
 
 .text {
     font-family: 'Calibri', sans-serif;
     font-weight: 500;
     line-height: 1.2;
-    font-size: max(3vw, 1.5em);
+    font-size: clamp(1.5em, 3vw, 1.6em);
     display: inline;
     vertical-align: middle;
 }
@@ -26,14 +27,14 @@
 .name{
     font-family: 'Calibri', sans-serif;
     font-weight: bold;
-    font-size: clamp(1.5em, 3.2vw, 3.2em);
+    font-size: clamp(1.5em, 3.2vw, 2.8em);
     color: #576BFF;
     line-height: 1;
 }
 
 .icon-global {
-    width: max(2.2vw, 1.7em);
-    height: max(2.2vw, 1.7em);
+    width: max(2.2vw, 1.5em);
+    height: max(2.2vw, 1.5em);
 }
 
 .smile{

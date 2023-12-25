@@ -13,7 +13,7 @@ export default function Report() {
                 <div className="mt-3 mb-3">
                     {data.report.contacts.map(({icon, href, name, id}) => (
                         <Row key={id} xs="auto"
-                             className="justify-content-start align-items-center p-1 p-sm-1 p-md-1 p-lg-0 p-xl-0">
+                             className="justify-content-start align-items-center pb-1 pb-sm-1 pb-md-1 pb-lg-1 pb-xl-2">
                             <a href={href} className="noStyle">
                                 <Image className="icon-global" src={icon}/>
                             </a>

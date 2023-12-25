@@ -14,13 +14,13 @@ body {
 }
 
 .main {
-    padding: max(4%, 1.9em);
+    padding: max(2%, 1.9em) max(4%, 1.9em);
     background-color: rgba(255, 255, 255, 0.3);
     background-image: radial-gradient(#2942FF 70%, transparent 70%);
     background-repeat: no-repeat no-repeat;
     background-size: max(1vw, 0.5em) max(1vw, 0.5em);
     background-position: right max(3vw, 1em) top max(2vw, 1em);
-    border-radius: max(4vw, 1em);
+    border-radius: max(2vw, 1em);
 }
 
 .gabs {

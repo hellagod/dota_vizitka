@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.566e93c8.css",
-    "main.js": "/static/js/main.62343ce8.js",
+    "main.css": "/static/css/main.4a260121.css",
+    "main.js": "/static/js/main.fe8d9486.js",
     "static/media/video_back.mp4": "/static/media/video_back.25cdb90ddfdf47cd232d.mp4",
     "static/media/csgonews.png": "/static/media/csgonews.ce0ddba73de192a44206.png",
     "static/media/goodwin.png": "/static/media/goodwin.4fecde8e46f78615763d.png",
@@ -11,18 +11,18 @@
     "static/media/stray.png": "/static/media/stray.38e7888537e029fafede.png",
     "static/media/Segoe.ttf": "/static/media/Segoe.c5d87c65438ea156ebc9.ttf",
     "static/media/Bahnschrift.ttf": "/static/media/Bahnschrift.b00e12e37c52124aa504.ttf",
+    "static/media/logo.svg": "/static/media/logo.edd5b339a84a3b78d8179ec80c19e13a.svg",
     "static/media/telegram.svg": "/static/media/telegram.d8af914778ee831324246ac939d4ac04.svg",
     "static/media/youtube.svg": "/static/media/youtube.983d8bf0ed8113024c54f72f803d7664.svg",
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.79a6701065e2c1c189640437899c7d34.svg",
     "static/media/twitch.svg": "/static/media/twitch.ae20372d709209413199f2f3dd7fc724.svg",
-    "static/media/gabe.svg": "/static/media/gabe.d8cac223d8a4f9388e3e560b0ac9eaed.svg",
     "static/media/empty.svg": "/static/media/empty.cb1be020617a1a2709f7dcc802804564.svg",
-    "main.566e93c8.css.map": "/static/css/main.566e93c8.css.map",
-    "main.62343ce8.js.map": "/static/js/main.62343ce8.js.map"
+    "main.4a260121.css.map": "/static/css/main.4a260121.css.map",
+    "main.fe8d9486.js.map": "/static/js/main.fe8d9486.js.map"
   },
   "entrypoints": [
-    "static/css/main.566e93c8.css",
-    "static/js/main.62343ce8.js"
+    "static/css/main.4a260121.css",
+    "static/js/main.fe8d9486.js"
   ]
 }

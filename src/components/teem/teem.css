@@ -6,7 +6,7 @@
     font-stretch: condensed;
     text-align: center;
     padding-top: 5px;
-    font-size: clamp(1.2em, 2.1vw, 2em);
+    font-size: clamp(1.2em, 2.1vw, 1.6em);
 }
 
 .img-size{
