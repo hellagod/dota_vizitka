@@ -12,6 +12,7 @@ import goodwin from './img/goodwin.png'
 import back from './img/video_back.mp4'
 import finger from './img/finger.png'
 
+
 const logo = {
     icon: gabe, title: "Gabe"
 }
