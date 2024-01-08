@@ -30,7 +30,7 @@ const data = {
         logo, upText: "Будем рады блогерам, стримерам и рекламодателям тут:", contacts: [{
             icon: telegram, name: "Telegram", href: "https://t.me/ffaqwest", id: 0
         }, {
-            icon: email, name: "Почта", href: "info@gabemedia.ru", id: 1
+            icon: email, name: "Почта", href: "mailto:info@gabemedia.ru", id: 1
         }], btText: "Мы на связи круглосуточно, без выходных.", form: {
             name: "Имя", phone: "Телефон", email: "Почта", comment: "Ваша идея", btn: "Оставить заявку"
         }
